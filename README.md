@@ -10,3 +10,6 @@ Or to run the program,
 ```bash
 go run main.go
 ```
+
+## Known issues
+Inputs on windows are buggy
