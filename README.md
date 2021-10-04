@@ -12,4 +12,4 @@ go run main.go
 ```
 
 ## Known issues
-Inputs on windows are buggy
+Inputs on Windows are buggy, linux seems to be fine.
