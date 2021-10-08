@@ -412,7 +412,7 @@ func init() {
 	redIndex = -1
 	isSorting = false
 	colsep = 2
-	colsize = 2
+	colsize = 16
 	numamt = gamew / (colsep + colsize)
 	colheight = gameh / numamt
 
