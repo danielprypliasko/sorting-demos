@@ -473,7 +473,7 @@ func (g *Game) Draw(screen *ebiten.Image) {
 			// Draw visualisation
 			for i, val := range numarr {
 
-				posx := float64((i * (colsize + colsep)) + 10)
+				posx := float64(((i * (colsize + colsep)) + 10) - colsize*2)
 				posy := float64((gameh - 10) - val*colheight)
 
 				if i == redIndex {
