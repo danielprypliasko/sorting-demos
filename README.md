@@ -13,3 +13,4 @@ go run main.go
 
 ## Known issues
 Inputs on Windows are buggy, linux seems to be fine.
+(Fixed)
