@@ -461,7 +461,6 @@ func (g *Game) Draw(screen *ebiten.Image) {
 	text.Draw(screen, "[1] Quicksort [2] Bubble Sort [3] Insertion Sort [4] Merge Sort [5] Selection Sort [6] Heap Sort [7] Radix sort [8] Bucket sort [9] Shell sort", mPlusFont, 20, 25, color.White)
 	text.Draw(screen, "[C] Clear Array [A] Add data", mPlusFont, 20, 55, color.White)
 	text.Draw(screen, "[W] Hide/Show visualisation", mPlusFont, 20, 85, color.White)
-	text.Draw(screen, fmt.Sprintf("%v", debounceMenu), mPlusFont, 20, 115, color.White)
 	// Draw depending on menu
 	switch inMenu {
 	case true:
